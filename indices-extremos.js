@@ -1,5 +1,6 @@
 // Dado um array numérico qualquer sem valores repetidos, descubra qual é o índice do maior valor e o índice do menor valor.
 
+
 function encontrarIndicesExtremos(array) {
     if (array.length === 0) {
       return { maior: -1, menor: -1 };
@@ -27,3 +28,6 @@ function encontrarIndicesExtremos(array) {
   const resultado = encontrarIndicesExtremos(meuArray);
   console.log("Índice do maior valor:", resultado.maior);
   console.log("Índice do menor valor:", resultado.menor);
+
+
+  module.exports = encontrarIndicesExtremos;
